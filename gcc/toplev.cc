@@ -2197,6 +2197,7 @@ toplev::run_self_tests ()
 
    It is not safe to call this function more than once.  */
 
+/* RDT: 20230702 - Iniciando o compilador. */ 
 int
 toplev::main (int argc, char **argv)
 {
