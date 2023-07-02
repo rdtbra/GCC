@@ -29,7 +29,7 @@ int main (int argc, char **argv);
 /* We define main() to call toplev::main(), which is defined in toplev.cc.
    We do this in a separate file in order to allow the language front-end
    to define a different main(), if it so desires.  */
-
+/* RDT: 20230702 - Ponto de entrada. */ 
 int
 main (int argc, char **argv)
 {
